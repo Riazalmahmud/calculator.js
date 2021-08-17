@@ -64,7 +64,7 @@ class calculator {
         const decimalDigit = sringNumber.split('.')[1]
         let integerDisplay
 
-        if (isNaN(integerDisplay)) {
+        if (isNaN(integerDigit)) {
             integerDisplay = ''
         }
         else {
@@ -79,8 +79,6 @@ class calculator {
         else {
             return integerDisplay
         }
-
-
     }
     updateDesplay() {
         this.correndOperendTextElement.innerText =
